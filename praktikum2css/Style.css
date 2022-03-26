@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family:monospace;
+    font-size: 20pt;
+    color: rgb(235, 232, 232);
+    background-color: rgb(150, 233, 248);
+    /* background-color: aliceblue; */
+}
+
+header{
+    /* background-color: rgb(255, 255, 255); */
+    color: rgb(226, 15, 15);
+    font-size: 25pt;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 30px;
+    text-align: center;
+}
+
+header span {
+    background-color: rgb(132, 143, 232);
+    padding: 5px;
+    border: 5px solid black;
+}
+
+h1{ 
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.container h1{
+    color: rgb(22, 22, 22);
+}
+
+.content1 {
+    background-color: rgb(95, 190, 235);
+    margin-bottom: 30px;
+    text-align: justify;
+    background-color: rgb(132, 143, 232);
+}
+
+/* section {
+    margin-bottom: 20px;
+    padding: 15px;
+    font-size: 16px;
+    width: 200px;
+    background-color: rgb(150, 233, 248);
+} */
+
+.penutup {
+    /* background-color: rgb(150, 233, 248); */
+    color: rgb(250, 16, 16);
+    font-size: 25pt;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+.penutup span {
+    padding: 5px;
+    border: 5px solid black;
+    background-color: rgb(132, 143, 232);
+}
+
+.border-sample {
+    border:thin solid black;
+}
+
+.content  {
+    border:thin solid black;
+}
+
+.content1{
+    display: flex;
+    font-family:'Moon Dance', cursive ;
+}
